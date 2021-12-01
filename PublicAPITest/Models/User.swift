@@ -18,4 +18,7 @@ struct User: Decodable {
     let avatar: String?
 }
 
+enum Link: String {
+    case userAPI = "https://reqres.in/api/users?delay=3"
+}
 
